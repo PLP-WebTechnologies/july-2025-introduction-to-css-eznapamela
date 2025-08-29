@@ -1,0 +1,102 @@
+/* =========================
+   General Page Styling
+   ========================= */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =========================
+   Header
+   ========================= */
+.site-header {
+  background-color: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #005fa3; /* Box Model: border */
+}
+
+.site-header h1 {
+  margin: 0;
+}
+
+.subtitle {
+  margin-top: 8px;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+/* =========================
+   Navigation Bar
+   ========================= */
+.navbar {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 15px;  /* Box Model: margin */
+  text-decoration: none;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #005fa3;
+}
+
+/* =========================
+   Main Content
+   ========================= */
+.content {
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  margin: 20px 0;         /* Box Model: margin */
+  padding: 15px;          /* Box Model: padding */
+  border: 2px solid #ddd; /* Box Model: border */
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #0077cc;
+}
+
+/* =========================
+   Buttons
+   ========================= */
+.btn {
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;   /* Box Model: padding */
+  margin-top: 10px;     /* Box Model: margin */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #005fa3;
+}
+
+/* =========================
+   Footer
+   ========================= */
+.site-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #333;
+  color: white;
+  margin-top: 30px;
+  border-top: 5px solid #0077cc;
+}
